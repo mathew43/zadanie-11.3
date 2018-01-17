@@ -1,0 +1,42 @@
+#board h1 {
+  margin: 0; }
+#board .create-column {
+  margin: 10px calc(50% - 50px); }
+#board .column {
+  width: 33%;
+  float: left; }
+
+h1, h2 {
+  text-align: center; }
+
+button {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  background-color: #27ae60;
+  border: none;
+  border-radius: 5px;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-left: calc(50% - 50px); }
+
+.btn-delete {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  margin: 5px;
+  width: 25px;
+  height: 25px;
+  color: red;
+  font-weight: bold;
+  background-color: #C1D3E8; }
+
+ul {
+  display: inline;
+  list-style: none; }
+  ul .btn-delete {
+    right: 5px; }
+  ul li {
+    position: relative;
+    text-align: center; }
