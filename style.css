@@ -15,10 +15,9 @@ button {
   text-align: center;
   width: 100px;
   height: 40px;
-  background-color: #27ae60;
+  background-color: blue;
   border: none;
   border-radius: 5px;
-  font-family: "Roboto Condensed", sans-serif;
   margin-left: calc(50% - 50px); }
 
 .btn-delete {
